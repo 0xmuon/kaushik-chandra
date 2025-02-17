@@ -8,7 +8,7 @@ import type React from "react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Kaushik Chandra | Web3 Developer",
+  title: "Kaushik Chandra",
   description: "Portfolio of Kaushik Chandra, a passionate Web3 developer and blockchain enthusiast.",
 }
 

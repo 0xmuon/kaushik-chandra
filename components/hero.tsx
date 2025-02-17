@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect"
 import { Button } from "./ui/button"
 import HalftoneWave from "@/components/canvas/HalftoneWave"
+import { useRef } from "react"
 
 export function Hero() {
   const words = [
@@ -26,6 +27,14 @@ export function Hero() {
       text: "Kaushik.",
     },
   ]
+
+  const handleGetInTouch = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   return (
     <div
       id="hero"
@@ -39,7 +48,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2, duration: 0.8 }}
         >
-          <Button className="mt-8" size="lg">
+          <Button className="mt-8" size="lg" onClick={handleGetInTouch}>
             Get in touch
           </Button>
         </motion.div>

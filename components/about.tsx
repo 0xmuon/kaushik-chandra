@@ -11,7 +11,7 @@ export function About() {
           </CardHeader>
           <CardContent>
             <p className="text-lg mb-4">
-              I'm Kaushik Chandra, a passionate Web3 developer and blockchain enthusiast with extensive experience in
+              I'm Kaushik Chandra, a passionate Web3 and blockchain BUILDER with extensive experience in
               the cryptocurrency ecosystem. I specialize in analyzing blockchain projects, developing growth strategies,
               and contributing to the decentralized future. My goal is to leverage my expertise in Web3, DeFi, and
               blockchain technology to drive innovation and create value in the crypto space.
@@ -20,6 +20,12 @@ export function About() {
               Currently, I lead BTC ecosystem investments at 3poch Labs. We are a $15M Liquid crypto fund and research
               lab looking to support projects extensively.
             </p>
+
+            <h2>Experience</h2>
+            <p>Details about my experience...</p>
+
+            <h2>Skills</h2>
+            <p>Details about my skills...</p>
           </CardContent>
         </Card>
       </div>

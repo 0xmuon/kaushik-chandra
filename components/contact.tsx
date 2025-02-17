@@ -36,6 +36,8 @@ export function Contact() {
   return (
     <section id="contact" className="py-16 bg-muted">
       <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold">Contact Me</h2>
+        <p>If you would like to get in touch, please reach out!</p>
         <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
           <Card>
             <CardHeader>
